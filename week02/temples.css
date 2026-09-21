@@ -1,0 +1,17 @@
+h1 {
+    color: black;
+    /* 1 */
+    padding: 1px;
+    margin: auto;
+    width: fit-content;
+}
+
+p {
+    margin: auto;
+    padding: 1px;
+    width: fit-cohntent;
+    background-color: black;
+    /* 1*/
+    color: azure;
+
+}
