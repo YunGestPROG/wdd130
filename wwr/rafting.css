@@ -9,6 +9,10 @@ nav .href {
     text-align: left;
 }
 
+.hero {
+    position: relative;
+}
+
 nav,
 main,
 body a {
