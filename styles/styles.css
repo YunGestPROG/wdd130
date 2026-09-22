@@ -3,13 +3,6 @@ body {
     background-color: rosybrown;
 }
 
-h1,
-h2 {
-    position: relative;
-    max-width: 480px;
-    text-align: center;
-}
-
 aside {
     width: auto;
     margin: 1rem;
@@ -20,20 +13,4 @@ aside {
     color: #333;
     text-align: center;
     position: relative;
-}
-
-main img {
-    top: auto;
-    max-width: 100%;
-    position: absolute;
-    width: 3302kb;
-    padding: 0;
-}
-
-.img,
-aside.img {
-    padding: 20px;
-    position: relative;
-    top: auto;
-    width: 3303kb;
 }
