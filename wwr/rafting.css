@@ -1,0 +1,93 @@
+html {
+    background-color: darkslategrey;
+    width: auto;
+}
+
+nav .href {
+    float: left;
+    position: fixed;
+    text-align: left;
+}
+
+nav,
+main,
+body a {
+    text-align: left;
+    color: var(--heading-font);
+    background-color: var(--accent1-color);
+    color: aquamarine;
+    display: bold;
+
+}
+
+.href {
+    background-color: bisque;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header,
+main,
+footer {
+    width: 100rem;
+    margin: 0 auto;
+}
+
+h2,
+h4 {
+    font-family: var(--heading-font);
+    color: var(primary-color);
+    position: relative;
+    top: auto;
+    width: auto;
+    text-align: center;
+    opacity: 0.7;
+    padding: 16px;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
