@@ -5,23 +5,15 @@
 }
 
 body {
-    font-family: var (--body-font);
-    color: var (--accent1-color);
+    font-family: var(--body-font);
+    color: var(--accent1-color);
 }
 
 header,
 main,
 footer {
-    background-color: var(--accent1-color);
-    color: black;
     width: 840px;
     margin: 0 auto;
-}
-
-h1,
-h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
 }
 
 nav,
@@ -61,4 +53,7 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+    border: 1px;
+    margin: auto;
+    box-shadow: 1px;
 }
