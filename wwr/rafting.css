@@ -22,6 +22,7 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+    display: flex;
 }
 
 .socialmedia a {
