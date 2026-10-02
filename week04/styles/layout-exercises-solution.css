@@ -48,10 +48,12 @@ div {
 .container3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
 }
 
 .columns-3 {
-    grid-column: span 3;}
+    grid-column: span 3;
+}
 
 .three {
     margin: .25rem;
