@@ -40,13 +40,9 @@ article {
 
 .hero {
     position: relative;
-    top: absolute;
-    box-shadow: 20px;
-    padding: 16px;
 }
 
 .hero img {
-    float: center;
     display: block;
     width: 100%;
     height: auto;
@@ -67,8 +63,7 @@ h1 {
 }
 
 .hero article img {
-
-    position: relative;
+    float: right;
     width: 125px;
     border: 10px;
     margin: auto;
@@ -78,13 +73,14 @@ h1 {
     color: #ffffff;
 }
 
-div {
-    top: 20px;
-    width: 100%;
+article {
+    position: absolute;
+    bottom: 10px;
+    width: auto;
     padding: 10px;
-    text-align: center;
-    box-shadow: 10px;
-    box-sizing: border-box;
+    margin: border;
+    box-shadow: 20px;
+    border: 10px;
     background-color: var(--accent1-color);
-    color: #ffffff;
+    color: #ffffff
 }
