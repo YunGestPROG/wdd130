@@ -57,8 +57,8 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #ffffff
-        /* white text - make sure there is enough contrast with the background-color */
+    color: #ffffff;
+    /* white text - make sure there is enough contrast with the background-color */
 
 }
 
@@ -76,11 +76,39 @@ h1 {
 article {
     position: absolute;
     bottom: 10px;
-    width: auto;
-    padding: 10px;
-    margin: border;
+    width: 75%;
+    padding: 20px;
+    margin: 0;
     box-shadow: 20px;
     border: 10px;
     background-color: var(--accent1-color);
-    color: #ffffff
+    color: #ffffff;
+    display: flex;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+nav,
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+history-content {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
 }
