@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -32,6 +31,9 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+    display: flex;
+    flex-direction: row;
+
 }
 
 .socialmedia a {
@@ -59,6 +61,7 @@ h1 {
     background-color: var(--accent1-color);
     color: #ffffff;
     /* white text - make sure there is enough contrast with the background-color */
+
 }
 
 .hero article img {
@@ -75,7 +78,7 @@ h1 {
 article {
     position: absolute;
     bottom: 10px;
-    width: 75%;
+    width: 100%;
     padding: 20px;
     margin: 0;
     box-shadow: 20px;
@@ -83,12 +86,14 @@ article {
     background-color: var(--accent1-color);
     color: #ffffff;
     display: flex;
+    justify-content: flex-start;
 
 }
 
 .container {
     display: grid;
     grid-template-columns: 1fr auto;
+    gap: 20px;
 }
 
 nav,
@@ -96,19 +101,6 @@ ul {
     display: flex;
     list-style: none;
     gap: 20px;
-}
-
-figure,
-h2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: end;
-
-}
-
-footer {
-    display: flex;
-    align-items: left;
     justify-content: flex-end;
+
 }
