@@ -13,13 +13,13 @@ body {
     --body-font: Arial, Helvetica, sans-serif;
     --heading-font: "Times New Roman", "Georgia", serif;
     --primary-color: #055a05;
-    --secondary-color: #f4a261;
+    --secondary-color: #86807cf1;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
 }
 
 header {
-    background-color: #f4a261;
+    background-color: #86807cf1;
 
 }
 
@@ -131,6 +131,7 @@ nav {
 
 .employees {
     display: flex;
+    flex-wrap: wrap;
     place-items: end;
 }
 
