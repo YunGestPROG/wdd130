@@ -30,6 +30,7 @@ main img {
 
 h1 {
     color: black;
+    max-width: ;
 }
 
 p {
@@ -40,4 +41,10 @@ footer {
     margin-top: 1rem;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+nav a {
+    color: forestgreen;
+    padding: 20px;
+    display: block;
 }
