@@ -111,31 +111,28 @@ nav,
 ul {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 20px;
     justify-content: flex-end;
-
 }
 
-section .h2 {
+.h2 {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    gap: 20px;
+
 }
 
 header,
 img,
 nav {
     display: flex;
-
 }
 
-section .history {
+.employees {
     display: flex;
+    place-items: end;
 }
 
-.figure {
+form {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
