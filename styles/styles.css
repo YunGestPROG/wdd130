@@ -30,7 +30,7 @@ main img {
 
 h1 {
     color: black;
-    max-width: ;
+    max-width: fit-content;
 }
 
 p {
