@@ -30,7 +30,6 @@ main img {
 
 h1 {
     color: black;
-    max-width: 0 auto;
     padding: 10px;
     margin: 0 auto;
 }
@@ -57,5 +56,5 @@ nav {
 }
 
 main {
-    max-width: auto;
+    max-width: border;
 }
