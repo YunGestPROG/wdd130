@@ -102,6 +102,7 @@ article {
 }
 
 .container {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr auto;
     gap: 20px;
