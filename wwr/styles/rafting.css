@@ -20,7 +20,10 @@ body {
 
 header {
     background-color: #86807cf1;
-
+    box-sizing: border-box;
+    box-shadow: 0 0 40px solid;
+    border: 3px solid #264653;
+    padding: 3px;
 }
 
 header,
@@ -133,8 +136,26 @@ nav {
     display: flex;
     flex-wrap: wrap;
     place-items: end;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 form {
+    display: grid;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    place-items: center;
+
+}
+
+.adventures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px solid;
+
 }
